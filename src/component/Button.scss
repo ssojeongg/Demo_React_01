@@ -1,0 +1,25 @@
+$gray: #ececec;
+$green: #64c964;
+$red: #fd565f;
+
+.Button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  white-space: nowrap;
+  font-family: 'Ownglyph_corncorn-Rg';
+}
+.Button_default {
+  background-color: $gray;
+  color: #000;
+}
+.Button_positive {
+  background-color: $green;
+  color: #fff;
+}
+.Button_negative {
+  background-color: $red;
+  color: #fff;
+}

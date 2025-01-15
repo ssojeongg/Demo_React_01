@@ -1,0 +1,53 @@
+$emotion1: #64c964;
+$emotion2: #9dd774;
+$emotion3: #fdce17;
+$emotion4: #fd8446;
+$emotion5: #fd565f;
+.DiaryItem {
+  padding: 15px 0;
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+  .img_section {
+    cursor: pointer;
+    min-width: 120px;
+    height: 80px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 50%;
+    }
+  }
+  .img_section_1 {
+    background-color: $emotion1;
+  }
+  .img_section_2 {
+    background-color: $emotion2;
+  }
+  .img_section_3 {
+    background-color: $emotion3;
+  }
+  .img_section_4 {
+    background-color: $emotion4;
+  }
+  .img_section_5 {
+    background-color: $emotion5;
+  }
+  .info_section {
+    flex-grow: 1;
+    margin-left: 20px;
+    cursor: pointer;
+    .date_wrapper {
+      font-weight: bold;
+      font-size: 25px;
+      margin-bottom: 5px;
+    }
+    .content_wrapper {
+      font-size: 18px;
+    }
+  }
+  .button_section {
+    min-width: 70px;
+  }
+}

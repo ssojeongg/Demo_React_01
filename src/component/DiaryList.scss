@@ -1,0 +1,26 @@
+$gray: #ececec;
+.DiaryList {
+  .menu_wrapper {
+   margin: 20px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    .left_col {
+      select {
+        margin-right: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: $gray;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-family: 'Ownglyph_corncorn-Rg';
+        font-size: 18px;
+      }
+    }
+    .right_col {
+      flex-grow: 1;
+      button {
+        width: 100%;
+      }
+    }
+  }
+}
