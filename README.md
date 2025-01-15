@@ -1,8 +1,13 @@
-# React + Vite
+# Demo_React_01 감정일기장(vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+'한 입 크기로 잘라 먹는 리액트(React.js) : 기초부터 실전까지' 인강의 감정일기장을 클론코딩 하였습니다.<br />
+인강을 먼저 듣고 교재를 보며 클론코딩을 하였고 notion에 요점정리를 하였습니다. 
 
-Currently, two official plugins are available:
+## 프로젝트 소개📖
+TodoList를 기반으로한 감정을 기록하는 일기장으로, 새 페이지, 수정 페이지, 삭제 페이지로 구성되어있습니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 기간🕛
+- 2025.01.11 ~ 2025.01.15
+- '한 입 크기로 잘라 먹는 리액트(React.js) : 기초부터 실전까지' 교재 정독
+- <a href="https://www.notion.so/17c7c695cc1e80eead85cdb7e9b4f1c6?pvs=4">요점 정리</a>(notion)
+
